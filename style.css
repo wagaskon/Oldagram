@@ -16,9 +16,25 @@ header{
     /* height: 3px; */
 
 }
-#user-pic{
+#user-pic, #profile-picture{
     width: 34px;
     height: 34px;
     border-radius: 100%;
 
+}
+#profile-picture{
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.user-info-name-location,#name-of-account, #location {
+    margin: 0;
+    padding: 0;
+}
+#post-picture{
+    width: 375px;
 }
