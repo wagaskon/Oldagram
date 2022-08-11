@@ -2,6 +2,8 @@ html, body {
     margin: 0;
     padding: 0;
     max-width: 375px;
+    border: 1px solid gray;
+    
 }
 /* header*/
 header{
@@ -10,6 +12,8 @@ header{
     align-items: center;
     /* padding: 20px; */
     height: 67px;
+    border: 1px solid grey;
+    
 }
 #oldagram{
     width: 127px;
@@ -31,10 +35,28 @@ header{
     align-items: center;
 
 }
-.user-info-name-location,#name-of-account, #location {
+.user-info-name-location,#name-of-account,
+ #location,#reaction-txt,#post-picture,
+ .divclass-of-whole-reaction-section,.Reactions
+ {
     margin: 0;
     padding: 0;
 }
 #post-picture{
     width: 375px;
+}
+.reaction-with-description{
+    border: 1px solid black;
+    width: 120px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background: rgb(204, 195, 195);
+}
+
+#post-reactions{
+    width: 22.5px;
 }
