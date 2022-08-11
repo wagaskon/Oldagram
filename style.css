@@ -1,31 +1,36 @@
 body {
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
-    border: 1px solid gray;
-    /* max-width: 375px; */
     display: flex;
     justify-content: center;
     align-items: center;
+    
    
     
 }
-/* {
-    mar
-} */
 
+@font-face {
+    font-family: "handrush";
+    src: url(Handrush.ttf);
+}
+
+.fllex{
+    max-width: 375px;
+    border: 1px solid rgb(38, 225, 116);
+    background: rgb(38, 225, 116);
+}
 header{
-    margin: 0 auto;
-    /* display: flex;
+    display: flex;
     justify-content:space-between;
-    align-items: center; */
-    /* padding: 20px; */
-    /* width: 375px;
-    height: 67px;
-    border: 1px solid grey; */
+    align-items: center;
+     border: 1px solid grey;
     
 }
 #oldagram{
     width: 127px;
+    font-family: handrush;
+    font-size: 25px;
+    padding: 0 0 0 10px;
     /* height: 3px; */
 
 }
@@ -42,8 +47,7 @@ header{
 .user-info{
     display: flex;
     justify-content: left;
-    align-items: center;
-    
+    align-items: 
 }
 .user-info-name-location,
 #name-of-account,
@@ -98,7 +102,6 @@ header{
     padding: 0;
 }
 .description-class{
-    margin-top: 12px;
     display: flex;
    
 }
