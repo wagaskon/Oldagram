@@ -1,75 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"> -->
     <link rel="stylesheet" href="style.css">
     <title>Oldagram</title>
 </head>
+
 <body>
-    <header >
-        <img id="oldagram" src="images/logoo.png" alt="logo">
-        <img id="user-pic" src="images/user-avatar.png" alt="User log in">
+        <header>
+            <!-- <div class="clss-header"> -->
+                <img id="oldagram" src="images/logoo.png" alt="logo">
+                <img id="user-pic" src="images/user-avatar.png" alt="User log in">
+            <!-- </div> -->
 
-    </header>
-    <section>
-        <!-- User Details  -->
-        <div class="user-info">
-            <div class="user-info-image">
-                <img id="profile-picture" src="images/avatar-vangogh.jpg" alt="avatar-vangogh">
-            </div>
-            <div class="user-info-name-location">
-                <h4 id="name-of-account">Name of Account</h4>
-                <p id="location" >Location</p>
-            </div>
-            
-        </div>
-        <!-- post -->
-        <div class="post">
-            <img id="post-picture" src="images/post-vangogh.jpg" alt="post-vangogh">
-        </div>
-        <!-- comments -->
-        <div class="divclass-of-whole-reaction-section" id="no-margin">
-             <div class="Reactions">
-                <div class="reaction-with-description">
-                    <h5 id="reaction-txt">Love</h5>
-                    <img id="post-reactions" src="images/icon-heart.png" alt="love reaction">
+        </header>
+        <section>
+
+            <!-- User Details  -->
+            <div class="user-info">
+                <div class="user-info-image">
+                    <img id="profile-picture" src="images/avatar-vangogh.jpg" alt="avatar-vangogh">
+                </div>
+                <div class="user-info-name-location">
+                    <h4 id="name-of-account">Name of Account</h4>
+                    <p id="location">Location</p>
                 </div>
 
-                <div class="reaction-with-description">
-                    <h5 id="reaction-txt">Comment</h5>
-                    <img id="post-reactions" src="images/icon-comment.png" alt="Commented">
-                </div>
-
-                <div class="reaction-with-description">
-                    <h5 id="reaction-txt">Send</h5>
-                    <img id="post-reactions" src="images/icon-dm.png" alt="Send button">
-                </div>
             </div>
 
-            
-            <!-- post details section-->
-            <div class="post-details">
-                <div class="likes-class">
-                    <h4>5468925 likes</h4>
-    
+            <div class="pic-and-reactions">
+                <!-- post -->
+                <div class="post">
+                    <img id="post-picture" src="images/post-vangogh.jpg" alt="post-vangogh">
                 </div>
-                <div class="description-class">
-                    <h5>Username=Post details</h5>
-                    <p>Description</p>
+                <!-- comments -->
+                <div class="divclass-of-whole-reaction-section">
+                    <div class="Reactions">
+                        <div class="reaction-with-description">
+                            <h5 class="reaction-txt">Love</h5>
+                            <img class="post-reactions" src="images/icon-heart.png" alt="love reaction">
+                        </div>
+
+                        <div class="reaction-with-description">
+                            <h5 class="reaction-txt">Comment</h5>
+                            <img class="post-reactions" src="images/icon-comment.png" alt="Commented">
+                        </div>
+
+                        <div class="reaction-with-description">
+                            <h5 class="reaction-txt">Send</h5>
+                            <img class="post-reactions" src="images/icon-dm.png" alt="Send button">
+                        </div>
+                    </div>
+
+
+                    <!-- post details section-->
+                    <div class="post-details">
+                        <!-- <div class="likes-class"> -->
+                        <h4 id="likes-id">5468925 likes</h4>
+                        <!-- </div> -->
+                        <div class="description-class">
+                            <p id="username"><b>Username</b></p>
+                            <p id="description">Description</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            
-        </div>
-       
-    </section>
-    
 
 
-   
-<script src="index.js"></script>
+        </section>
+
+
+    <script src="index.js"></script>
 </body>
+
 </html>
-
-
-
-
