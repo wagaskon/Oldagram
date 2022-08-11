@@ -1,18 +1,27 @@
-html, body {
-    margin: 0;
+body {
+    margin: 0 auto;
     padding: 0;
-    max-width: 375px;
     border: 1px solid gray;
+    /* max-width: 375px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
     
 }
-/* header*/
+/* {
+    mar
+} */
+
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    margin: 0 auto;
+    /* display: flex;
+    justify-content:space-between;
+    align-items: center; */
     /* padding: 20px; */
+    /* width: 375px;
     height: 67px;
-    border: 1px solid grey;
+    border: 1px solid grey; */
     
 }
 #oldagram{
@@ -24,6 +33,7 @@ header{
     width: 34px;
     height: 34px;
     border-radius: 100%;
+    padding-right: 5px;
 
 }
 #profile-picture{
@@ -33,65 +43,74 @@ header{
     display: flex;
     justify-content: left;
     align-items: center;
-
+    
 }
 .user-info-name-location,
 #name-of-account,
 #location,
-#reaction-txt,
-.post,.reaction-with-description
+.reaction-txt
 {
     margin: 0;
     padding: 0;
 }
-#post-picture{
-    width: 375px;
-    margin-bottom: 21px;
+/* .pic-and-reactions{
+    display: flex;
+    flex-direction: column;
+    
+} */
+.divclass-of-whole-reaction-section{
+   margin-top: 21px;
 }
+#post-picture{
+    
+    width: 375px;
+    border-radius: 5px;
 
-/* section,  */
+}
 .Reactions,.reaction-with-description{
     display: flex;
     align-items:center;
-    justify-content: space-around;
+    justify-content: space-evenly;
+
 }
-/* section{
-    flex-direction: column;
-} */
+
 .reaction-with-description{
     border: 1px solid black;
     width: 120px;
     border-radius: 5px;
-    /* display: flex;
-    align-items:center;
-    justify-content: space-around; */
-    background: rgb(204, 195, 195);
-    /* margin: 0;
-    padding: 0; */
+    /* background: rgb(204, 195, 195); */
+   
 }
 
-#post-reactions{
+.post-reactions{
     width: 22.5px;
 }
-.divclass-of-whole-reaction-section{
-    /* border: 1px solid grey; */
-    background-color: rgb(51, 183, 7);
-    margin: 0;
-    padding: 0;
-}
+
 .post-details{
-    background-color: red;
-    /* width: 346px; */
-    padding: 0;
-    margin: 0;
-}
-.Reactions{
-    background-color: blue;
-    margin: 5px;
-    padding: 0;
-}
-section{
+    margin-top: 12px;
+    padding-left: 10px;
     display: flex;
     flex-direction: column;
     
+}
+.likes-class{
+    background-color: red;
+    padding: 0;
+}
+.description-class{
+    margin-top: 12px;
+    display: flex;
+   
+}
+
+
+#likes-id{
+    padding: 0;
+    margin: 5px 0;
+}
+#username,#description{
+    margin: 5px 0;
+}
+#username{
+    padding-right: 10px;
 }
