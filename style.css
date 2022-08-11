@@ -16,8 +16,8 @@ body {
 
 .fllex{
     max-width: 375px;
-    border: 1px solid rgb(38, 225, 116);
-    background: rgb(38, 225, 116);
+    
+    background: rgb(203, 247, 152);
 }
 header{
     display: flex;
